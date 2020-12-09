@@ -3,9 +3,10 @@ import React from 'react';
 
 function Covid19Summary({props}) {
     // const province = props.Province;
-
+    // console.log(props);
     return (
         <div>
+
         </div>
     )
 }

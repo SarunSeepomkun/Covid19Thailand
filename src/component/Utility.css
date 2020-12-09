@@ -1,0 +1,120 @@
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+}
+
+code,
+pre {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 2.5rem;
+}
+
+.card {
+  background-color: #fff;
+  color: #333;
+  border-radius: 0.6em;
+  box-shadow: 0 3px 0.6em rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+}
+
+/*text*/
+.text-center{
+  text-align: center;
+}
+
+/* Layout */
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Background color */
+.bg-red {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+/* Border color */
+
+.border-red {
+  box-shadow: 0 3px 0.6em rgb(255, 104, 104);
+}
+
+.border-green {
+  box-shadow: 0 3px 0.6em rgb(81, 224, 93);
+}
+
+.border-yellow {
+  box-shadow: 0 3px 0.6em rgb(226, 230, 36);
+}
+
+.border-black {
+  box-shadow: 0 3px 0.6em rgba(0, 0, 0, 0.753);
+}

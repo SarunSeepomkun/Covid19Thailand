@@ -40,4 +40,24 @@ export const fetchSummary = async () => {
     }
   };
 
+  export const fetchTimeline = async () => {
+    try {
+    const data = await axios
+        .get("https://covid19.th-stat.com/api/open/timeline")
+        .then((response) => {
+          // console.log('Success : line 8 api/Covid19TH.fetchTimeline.get().then()');
+          // console.log(response);
+          return response;
+        })
+        .catch((error) => {
+          console.log('Error : line 53 api/Covid19TH.fetchTimeline.get().catch()');
+          console.log(error);
+          return error;
+        });
+        return data;
+    } catch (error) {
+      console.log(`Error : line 59 api/Covid19TH.fetchTimeline.js ${error}`);
+    }
+  };
+
 export default fetchToday;
