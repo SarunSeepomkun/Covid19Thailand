@@ -2,8 +2,8 @@ import React from "react";
 import { Line } from "react-chartjs-2";
 
 function Covid19Timeline({ props }) {
-  console.log("Line 5 component/Covid19Timeline/Covid19Timeline");
-  console.log(props);
+  //console.log("Line 5 component/Covid19Timeline/Covid19Timeline");
+  //console.log(props);
   var labels = [];
   var dataSet = [];
 
